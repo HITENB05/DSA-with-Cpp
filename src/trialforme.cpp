@@ -10,7 +10,8 @@
     if( x == y ) cout<<x<<" is an INTEGER"<<endl;
     else cout<<x<<" is NOT an INTEGER"<<endl;
 
-
+   //hello gaizzzzzz
+   // merko samajh ni aya but acha lag rha h krke 
 
 
 
