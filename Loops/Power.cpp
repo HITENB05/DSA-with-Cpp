@@ -15,9 +15,9 @@
     if(a ==1) break;
     ans *= a;
 
-}
+    }
    if(a ==0 && b== 0) cout <<"Indeterminate form";
-else cout<<ans;
+   else cout<<ans;
 
 
 }
