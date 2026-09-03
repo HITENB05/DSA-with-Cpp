@@ -9,6 +9,6 @@
             if(i<=j)cout<<i<<" ";
             else cout<<j<<" ";
         }
-         cout<<endl;
+        cout<<endl;
     }
 }
