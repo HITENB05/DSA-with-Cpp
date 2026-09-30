@@ -1,5 +1,5 @@
-#include <iostream>
-using namespace std;
+#include<iostream>
+using namespace std; 
 
 void greeting() {
     cout << "Good morning" << endl;
