@@ -12,5 +12,5 @@
         cout<<i<<" ";}
          cout<<endl;
     }
-   
+    
    }
