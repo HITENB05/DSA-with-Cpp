@@ -2,10 +2,10 @@
 #include<vector>
 using namespace std;
 int main(){
-    vector<int> arr(8,-1); // index 0 to 4
+    v; // index 0 to 4
     for(int i=0;i<arr.size();i++){
         cout<<arr[i]<<" ";
-    }
+    }ector<int> arr(8,-1)
     cout<<endl;
     arr.push_back(5); // adds an element at end 
     arr.push_back(14);
