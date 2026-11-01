@@ -1,0 +1,42 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a[] = {10,20,40,70,90,100};
+    int b[] = {30,50,60,80};
+    int m = sizeof(a)/sizeof(a[0]);
+    int n = sizeof(b)/sizeof(b[0]);
+    int c[m+n];
+    int i=0,j=0,k=0;
+
+    while(i<m && j<n)
+    {
+        if(a[i]<b[j])
+        {
+            c[k]=a[i];
+            i++;
+        }
+        else
+        {
+            c[k]=b[j];
+            j++;
+        }
+        k++;
+    }
+    while(i<m)
+    {
+        c[k]=a[i];
+        i++;
+        k++;
+    }
+    while(j<n)
+    {
+        c[k]=b[j];
+        j++;
+        k++;
+    }
+    for(int x=0;x<m+n;x++)
+    {
+        cout<<c[x]<<" ";
+    }
+}
