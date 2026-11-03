@@ -2,14 +2,12 @@
 #include<iostream>
 #include<vector>
 using namespace std;
-
 int main(){
     int arr[][4] = {
         {6,8,11,2},
         {9,9,4,5},
         {4,9,8,5}
     };
-
     for(int i=0; i<3; i++){
 
         if(i%2 == 0){
